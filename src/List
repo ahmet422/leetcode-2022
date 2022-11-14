@@ -1,0 +1,18 @@
+1. https://leetcode.com/problems/longest-common-prefix/description/	✅
+
+    a Sort array with strings according to string lengths: Arrays.sort(strs,(a,b) -> Integer.compare(a.length(),b.length()));
+    b "stringtext".indexOf("stri") is 0
+
+2. https://leetcode.com/problems/valid-perfect-square/
+3. https://leetcode.com/problems/valid-parentheses/
+4. https://leetcode.com/problems/baseball-game/
+5. https://leetcode.com/problems/implement-stack-using-queues/
+6. https://leetcode.com/problems/min-stack/description/
+7. https://leetcode.com/problems/evaluate-reverse-polish-notation/description/
+8. https://leetcode.com/problems/reverse-linked-list/description/
+9. https://leetcode.com/problems/merge-two-sorted-lists/description/
+10. https://leetcode.com/problems/palindrome-linked-list/description/
+11. https://leetcode.com/problems/remove-linked-list-elements/description/
+12. https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/
+
+✅
