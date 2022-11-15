@@ -3,7 +3,10 @@
     a Sort array with strings according to string lengths: Arrays.sort(strs,(a,b) -> Integer.compare(a.length(),b.length()));
     b "stringtext".indexOf("stri") is 0
 
-2. https://leetcode.com/problems/valid-perfect-square/
+2. https://leetcode.com/problems/valid-perfect-square/ ✅
+
+    a binary search (left, right, middle)
+
 3. https://leetcode.com/problems/valid-parentheses/
 4. https://leetcode.com/problems/baseball-game/
 5. https://leetcode.com/problems/implement-stack-using-queues/
