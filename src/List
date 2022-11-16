@@ -16,7 +16,8 @@
 7. https://leetcode.com/problems/evaluate-reverse-polish-notation/description/
 8. https://leetcode.com/problems/reverse-linked-list/description/
 9. https://leetcode.com/problems/merge-two-sorted-lists/description/
-10. https://leetcode.com/problems/palindrome-linked-list/description/
+10. https://leetcode.com/problems/palindrome-linked-list/description/ ✅
+    a slow node fast node. slow goes to middle fast goes to end. Then reverse first half and compare.
 11. https://leetcode.com/problems/remove-linked-list-elements/description/ ✅
     a use prev and curr. When cur.val == val then prev.next = cur.next; prev = cur, cur = cur.next while(cur != null)
 12. https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/  ✅
