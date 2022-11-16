@@ -7,7 +7,7 @@
 
     a binary search (left, right, middle)
 
-3. https://leetcode.com/problems/valid-parentheses/
+3. https://leetcode.com/problems/valid-parentheses/ ✅
 4. https://leetcode.com/problems/baseball-game/
 5. https://leetcode.com/problems/implement-stack-using-queues/
 6. https://leetcode.com/problems/min-stack/description/
@@ -15,7 +15,8 @@
 8. https://leetcode.com/problems/reverse-linked-list/description/
 9. https://leetcode.com/problems/merge-two-sorted-lists/description/
 10. https://leetcode.com/problems/palindrome-linked-list/description/
-11. https://leetcode.com/problems/remove-linked-list-elements/description/
-12. https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/
+11. https://leetcode.com/problems/remove-linked-list-elements/description/ ✅
+    a use prev and curr. When cur.val == val then prev.next = cur.next; prev = cur, cur = cur.next while(cur != null)
+12. https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/  ✅
 
 ✅
