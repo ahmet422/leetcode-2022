@@ -8,7 +8,9 @@
     a binary search (left, right, middle)
 
 3. https://leetcode.com/problems/valid-parentheses/ ✅
-4. https://leetcode.com/problems/baseball-game/
+4. https://leetcode.com/problems/baseball-game/ ✅
+    a  Integer sum = stack.stream().reduce(0, (a, b) -> a + b);
+    b  Try to figure out the most optimum ds : stack in here
 5. https://leetcode.com/problems/implement-stack-using-queues/
 6. https://leetcode.com/problems/min-stack/description/
 7. https://leetcode.com/problems/evaluate-reverse-polish-notation/description/
