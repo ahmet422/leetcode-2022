@@ -9,9 +9,21 @@
 
 3. https://leetcode.com/problems/valid-parentheses/ ✅
 4. https://leetcode.com/problems/baseball-game/ ✅
+
     a  Integer sum = stack.stream().reduce(0, (a, b) -> a + b);
     b  Try to figure out the most optimum ds : stack in here
-5. https://leetcode.com/problems/implement-stack-using-queues/
+
+5. https://leetcode.com/problems/implement-stack-using-queues/ ✅
+
+    a The main idea:
+    public void push(int x) {
+              queue.add(x);
+              for (int i = 1; i<queue.size(); i++){
+                 int temp = queue.remove();
+                  queue.add(temp);
+              }
+          }
+
 6. https://leetcode.com/problems/min-stack/description/
 7. https://leetcode.com/problems/evaluate-reverse-polish-notation/description/
 8. https://leetcode.com/problems/reverse-linked-list/description/  ✅
