@@ -14,7 +14,8 @@
 5. https://leetcode.com/problems/implement-stack-using-queues/
 6. https://leetcode.com/problems/min-stack/description/
 7. https://leetcode.com/problems/evaluate-reverse-polish-notation/description/
-8. https://leetcode.com/problems/reverse-linked-list/description/
+8. https://leetcode.com/problems/reverse-linked-list/description/  ✅
+        a prev -> null, while(head != null) {temp = head, temp = head.next, head.next = prev, prev = head, head = temp;} return prev;
 9. https://leetcode.com/problems/merge-two-sorted-lists/description/ ✅
         a create a dummy node and start
         b compare values of l1 and l2. dummy.next = lower value of (l1,l2)
