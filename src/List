@@ -24,17 +24,38 @@
               }
           }
 
-6. https://leetcode.com/problems/min-stack/description/
-7. https://leetcode.com/problems/evaluate-reverse-polish-notation/description/
+6. https://leetcode.com/problems/min-stack/description/  ✅
+
+            a push pairs (x, min) if stack
+            b if linked list:
+            public void push(int x) {
+                    if(head == null){
+                        head = new Node(x,x);
+                    }else{
+                        Node temp = new Node(x, Math.min(x, head.min));
+                        temp.next = head;
+                        head = temp;
+                    }
+                }
+
+7. https://leetcode.com/problems/evaluate-reverse-polish-notation/description/  ✅
 8. https://leetcode.com/problems/reverse-linked-list/description/  ✅
+
         a prev -> null, while(head != null) {temp = head, temp = head.next, head.next = prev, prev = head, head = temp;} return prev;
+
 9. https://leetcode.com/problems/merge-two-sorted-lists/description/ ✅
+
         a create a dummy node and start
         b compare values of l1 and l2. dummy.next = lower value of (l1,l2)
+
 10. https://leetcode.com/problems/palindrome-linked-list/description/ ✅
+
     a slow node fast node. slow goes to middle fast goes to end. Then reverse first half and compare.
+
 11. https://leetcode.com/problems/remove-linked-list-elements/description/ ✅
+
     a use prev and curr. When cur.val == val then prev.next = cur.next; prev = cur, cur = cur.next while(cur != null)
+
 12. https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/  ✅
 
 ✅
