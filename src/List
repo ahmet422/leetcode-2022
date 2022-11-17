@@ -15,7 +15,9 @@
 6. https://leetcode.com/problems/min-stack/description/
 7. https://leetcode.com/problems/evaluate-reverse-polish-notation/description/
 8. https://leetcode.com/problems/reverse-linked-list/description/
-9. https://leetcode.com/problems/merge-two-sorted-lists/description/
+9. https://leetcode.com/problems/merge-two-sorted-lists/description/ ✅
+        a create a dummy node and start
+        b compare values of l1 and l2. dummy.next = lower value of (l1,l2)
 10. https://leetcode.com/problems/palindrome-linked-list/description/ ✅
     a slow node fast node. slow goes to middle fast goes to end. Then reverse first half and compare.
 11. https://leetcode.com/problems/remove-linked-list-elements/description/ ✅
