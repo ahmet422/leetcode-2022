@@ -58,4 +58,12 @@
 
 12. https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/  ✅
 
+13. https://leetcode.com/problems/linked-list-cycle/
+
+    a while(fast != null && fast.next != null){
+                  slow = slow.next;
+                  fast = fast.next.next;
+                  if(slow == fast) return true;
+              }
+
 ✅
