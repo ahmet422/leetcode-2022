@@ -74,5 +74,11 @@
 
 15 https://leetcode.com/problems/binary-search/ ✅
 
+16 https://leetcode.com/problems/invert-binary-tree/ ✅
+
+    a swap left and right
+    b call recursively for left and then for right nodes
+
+
 
 
