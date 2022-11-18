@@ -66,10 +66,13 @@
                   if(slow == fast) return true;
               }
 
-14. https://leetcode.com/problems/top-k-frequent-elements/
+14. https://leetcode.com/problems/top-k-frequent-elements/ ✅
 
     a MyObject holds val and amount
     b list holds MyObject objects created from map
     c sort the list with custom comparator and put values to array (class MyObject implements Comparable<MyObject>)
 
-✅
+15 https://leetcode.com/problems/binary-search/ ✅
+
+
+
