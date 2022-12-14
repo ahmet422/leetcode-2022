@@ -5,7 +5,24 @@ import java.util.*;
 // https://leetcode.com/problems/longest-repeating-character-replacement/
 public class CharacterReplacement {
     public static void main(String[] args) {
-        System.out.println(characterReplacement("ABAB",2));
+        String address = "731 Walker Locks, Suite 292, 45444-1882, Sipesmouth, Florida, United States";
+        address = address.substring(0,address.lastIndexOf(','));
+        System.out.println(address); //output: 731 Walker Locks, Suite 292, 45444-1882, Sipesmouth, Florida
+        address = address.substring(address.lastIndexOf(' ')+1).trim();
+        System.out.println(address); //output:Florida
+        // now you can use address as a state
+
+//        String s1 = "731 Walker Locks, Suite 292, 45444-1882, Sipesmouth, Florida, United States";
+//        String[] strArr = s1.split(", ");
+//        System.out.println(Arrays.toString(strArr)); //output:[731 Walker Locks, Suite 292, 45444-1882, Sipesmouth, Florida, United States]
+//        String state = strArr[4];
+//        System.out.println(state); //output: Florida
+//        // now you can use state string
+
+
+
+
+      //  System.out.println(characterReplacement("ABAB",2));
     }
     public static int characterReplacement(String s, int k) {
 
