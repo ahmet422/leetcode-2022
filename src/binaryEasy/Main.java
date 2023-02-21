@@ -1,8 +1,15 @@
 package binaryEasy;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
 public class Main {
     public static void main(String[] args) {
+     Queue<Integer> q = new LinkedList<>();
 
+     List<Integer> l = new LinkedList<Integer>();
      Node root = new Node(8);
      Node n1 = new Node(7);
      Node n2 = new Node(5);
@@ -22,6 +29,10 @@ public class Main {
      BinaryTree bt = new BinaryTree();
      bt.root = root;
      bt.traverseInOrderWithoutRecursion();
+     System.out.println();
+     bt.add(7);
+     bt.traverseInOrderWithoutRecursion();
+
 
     }
 }
